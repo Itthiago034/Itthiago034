@@ -1,8 +1,9 @@
 <h1 align="center">Hi, I'm Thiago</h1>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2600&pause=900&color=FF2D46&center=true&vCenter=true&width=720&lines=Rust+%2B+terminal+tools;Embedded+systems+and+low-level+programming;Linux-first+workflows+with+a+practical+edge" alt="Typing SVG" />
+  <a hre  <a href="https://git.io/typing-svg">
+    f="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?Rust+%2B+terminal+%2B+embedded+%2B+Linux;AI+Agents+%2B+MCP+Servers+%2B+Local+LLMs+%2B+TypeScript" alt="Typing SVG" />font=Fira+Code&weight=500&size=18&duration=2600&pause=900&color=FF2D46&center=true&vCenter=true&width=720&lines=Rust+%2B+terminal+tools;Embedded+systems+and+low-level+programming;Linux-first+workflows+with+a+practical+edge" alt="Typing SVG" />
   </a>
 </p>
 
