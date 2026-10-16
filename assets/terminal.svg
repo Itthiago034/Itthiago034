@@ -60,9 +60,9 @@
   <g clip-path="url(#c3)">
     <text x="40" y="154"><tspan class="prompt">❯ </tspan><tspan class="cmd">cat ~/now-building.txt</tspan></text>
   </g>
-  <text x="40" y="184" class="item fade d2"><tspan class="tag">▸ </tspan>Rust tools for the terminal 🦀</text>
+  <text x="40" y="184" class="item fade d2"><tspan class="tag">▸ </tspan>mcp-crunchyroll — anime meets AI agents 🍥</text>
   <text x="40" y="210" class="item fade d3"><tspan class="tag">▸ </tspan>low-level &amp; embedded experiments ⚙️</text>
-  <text x="40" y="236" class="item fade d4"><tspan class="tag">▸ </tspan>MCP servers, local LLMs &amp; agents 🤖</text>
+  <text x="40" y="236" class="item fade d4"><tspan class="tag">▸ </tspan>Rust tools for the terminal 🦀</text>
 
   <g class="fade d5">
     <text x="40" y="270"><tspan class="prompt">❯ </tspan></text>
