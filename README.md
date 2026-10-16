@@ -97,7 +97,7 @@ MCP client ──stdio──▶ mcp-crunchyroll ──CDP──▶ managed brows
 
 <p align="center">
   <a href="https://github.com/Itthiago034/mcp-crunchyroll"><img src="https://img.shields.io/badge/⭐_Give_it_a_star-f47521?style=for-the-badge" alt="Star mcp-crunchyroll" /></a>
-  <a href="https://github.com/Itthiago034/mcp-crunchyroll#install-and-build"><img src="https://img.shields.io/badge/🚀_Get_started-a855f7?style=for-the-badge" alt="Get started" /></a>
+  <a href="https://github.com/Itthiago034/mcp-crunchyroll#-quick-start"><img src="https://img.shields.io/badge/🚀_Get_started-a855f7?style=for-the-badge" alt="Get started" /></a>
 </p>
 
 <sub>Unofficial community project. Not affiliated with or endorsed by Crunchyroll, LLC.</sub>
