@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Animated terminal introducing Thiago">
+  <title>~/thiago — animated terminal</title>
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff2d46"/>
+      <stop offset="50%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#ff2d46"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="c1"><rect x="40" y="70" height="30" width="0"><animate attributeName="width" from="0" to="520" begin="0.4s" dur="1s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="40" y="134" height="30" width="0"><animate attributeName="width" from="0" to="520" begin="2.4s" dur="1s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Fira Code', 'JetBrains Mono', 'Cascadia Code', Consolas, monospace; }
+    .prompt { fill: #22c55e; font-size: 17px; }
+    .cmd    { fill: #e6edf3; font-size: 17px; }
+    .out    { fill: #ff2d46; font-size: 19px; font-weight: 700; }
+    .item   { fill: #c9d1d9; font-size: 16px; }
+    .tag    { fill: #f97316; }
+    .dim    { fill: #8b949e; font-size: 13px; }
+    .fade { opacity: 0; animation: fade .5s ease-out forwards; }
+    .d1 { animation-delay: 1.5s; } .d2 { animation-delay: 3.5s; }
+    .d3 { animation-delay: 4.0s; } .d4 { animation-delay: 4.5s; }
+    .d5 { animation-delay: 5.0s; } .d6 { animation-delay: 5.6s; }
+    @keyframes fade { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .eq rect { transform-box: fill-box; transform-origin: bottom; animation: eq 1s ease-in-out infinite alternate; }
+    @keyframes eq { 0% { transform: scaleY(.15); } 100% { transform: scaleY(1); } }
+    .frame { stroke-dasharray: 2400; stroke-dashoffset: 2400; animation: draw 2s ease-out forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: .35; } }
+  </style>
+
+  <rect x="4" y="4" width="892" height="292" rx="14" fill="#0d1117"/>
+  <rect class="frame" x="4" y="4" width="892" height="292" rx="14" fill="none" stroke="url(#border)" stroke-width="2.5"/>
+
+  <!-- title bar -->
+  <circle cx="30" cy="28" r="6.5" fill="#ff5f57"/>
+  <circle cx="52" cy="28" r="6.5" fill="#febc2e"/>
+  <circle cx="74" cy="28" r="6.5" fill="#28c840"/>
+  <text x="450" y="33" text-anchor="middle" class="dim">thiago@linux: ~</text>
+  <line x1="4" y1="48" x2="896" y2="48" stroke="#21262d"/>
+
+  <!-- line 1: whoami -->
+  <g clip-path="url(#c1)">
+    <text x="40" y="90"><tspan class="prompt">❯ </tspan><tspan class="cmd">whoami</tspan></text>
+  </g>
+  <text x="40" y="122" class="out fade d1" filter="url(#glow)">Thiago — Rust · Embedded · Linux · AI Agents</text>
+
+  <!-- line 2: cat -->
+  <g clip-path="url(#c3)">
+    <text x="40" y="154"><tspan class="prompt">❯ </tspan><tspan class="cmd">cat ~/now-building.txt</tspan></text>
+  </g>
+  <text x="40" y="184" class="item fade d2"><tspan class="tag">▸ </tspan>ytmtui — YouTube Music in your terminal 🎧</text>
+  <text x="40" y="210" class="item fade d3"><tspan class="tag">▸ </tspan>low-level &amp; embedded experiments ⚙️</text>
+  <text x="40" y="236" class="item fade d4"><tspan class="tag">▸ </tspan>MCP servers, local LLMs &amp; agents 🤖</text>
+
+  <g class="fade d5">
+    <text x="40" y="270"><tspan class="prompt">❯ </tspan></text>
+    <rect class="cursor" x="62" y="256" width="10" height="18" fill="#e6edf3"/>
+  </g>
+
+  <!-- equalizer (nod to ytmtui's spectrum) -->
+  <g class="eq" transform="translate(640 90)">
+    <rect x="0"   y="0" width="14" height="150" rx="3" fill="url(#bar)" style="animation-duration:.55s"/>
+    <rect x="22"  y="0" width="14" height="150" rx="3" fill="url(#bar)" style="animation-duration:.8s;animation-delay:-.3s"/>
+    <rect x="44"  y="0" width="14" height="150" rx="3" fill="url(#bar)" style="animation-duration:.65s;animation-delay:-.1s"/>
+    <rect x="66"  y="0" width="14" height="150" rx="3" fill="url(#bar)" style="animation-duration:.95s;animation-delay:-.5s"/>
+    <rect x="88"  y="0" width="14" height="150" rx="3" fill="url(#bar)" style="animation-duration:.5s;animation-delay:-.2s"/>
+    <rect x="110" y="0" width="14" height="150" rx="3" fill="url(#bar)" style="animation-duration:.75s;animation-delay:-.4s"/>
+    <rect x="132" y="0" width="14" height="150" rx="3" fill="url(#bar)" style="animation-duration:.6s;animation-delay:-.15s"/>
+    <rect x="154" y="0" width="14" height="150" rx="3" fill="url(#bar)" style="animation-duration:.85s;animation-delay:-.35s"/>
+    <rect x="176" y="0" width="14" height="150" rx="3" fill="url(#bar)" style="animation-duration:.7s;animation-delay:-.25s"/>
+    <rect x="198" y="0" width="14" height="150" rx="3" fill="url(#bar)" style="animation-duration:.9s;animation-delay:-.45s"/>
+  </g>
+  <text x="745" y="268" text-anchor="middle" class="dim pulse">♪ now playing in ytmtui</text>
+</svg>

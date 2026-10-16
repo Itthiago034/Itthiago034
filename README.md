@@ -1,66 +1,146 @@
-<h1 align="center">Hi, I'm Thiago</h1>
+<!-- Header wave -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff2d46,50:f97316,100:a855f7&height=200&section=header&text=Hey%2C%20I'm%20Thiago%20👋&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Rust%20%E2%80%A2%20Embedded%20%E2%80%A2%20Linux%20%E2%80%A2%20AI%20Agents&descAlignY=58&descSize=18" alt="Header" width="100%" />
+</p>
 
 <p align="center">
-  <a hre  <a href="https://git.io/typing-svg">
-    f="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?Rust+%2B+terminal+%2B+embedded+%2B+Linux;AI+Agents+%2B+MCP+Servers+%2B+Local+LLMs+%2B+TypeScript" alt="Typing SVG" />font=Fira+Code&weight=500&size=18&duration=2600&pause=900&color=FF2D46&center=true&vCenter=true&width=720&lines=Rust+%2B+terminal+tools;Embedded+systems+and+low-level+programming;Linux-first+workflows+with+a+practical+edge" alt="Typing SVG" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=800&color=FF2D46&center=true&vCenter=true&width=760&lines=%F0%9F%A6%80+Writing+Rust+that+lives+in+the+terminal;%E2%9A%99%EF%B8%8F+Poking+at+embedded+%26+low-level+code;%F0%9F%90%A7+Linux-first%2C+keyboard-driven%2C+always;%F0%9F%A4%96+Building+AI+agents%2C+MCP+servers+%26+local+LLMs;%F0%9F%8E%A7+Shipping+ytmtui%3A+YouTube+Music+in+your+shell" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  Developer exploring <strong>embedded systems</strong>, <strong>low-level programming</strong>,
-  <strong>Linux</strong>, and polished tools for the terminal.
+  <img src="https://komarev.com/ghpvc/?username=Itthiago034&style=for-the-badge&color=ff2d46&label=PROFILE+VIEWS" alt="Profile views" />
+  <a href="https://github.com/Itthiago034?tab=followers"><img src="https://img.shields.io/github/followers/Itthiago034?style=for-the-badge&color=f97316&logo=github" alt="Followers" /></a>
+  <a href="https://github.com/Itthiago034/ytmtui/stargazers"><img src="https://img.shields.io/github/stars/Itthiago034/ytmtui?style=for-the-badge&color=a855f7&logo=starship&logoColor=white&label=ytmtui%20stars" alt="ytmtui stars" /></a>
 </p>
 
 <p align="center">
-  <em>Também documento e mantenho projetos em PT-BR quando isso ajuda a comunidade.</em>
+  <img src="./assets/terminal.svg" alt="Animated terminal: whoami and what I'm building" width="100%" />
 </p>
+
+## ⚡ About me
+
+```rust
+struct Thiago {
+    loves:     ["Rust", "Linux", "the terminal", "bare metal"],
+    building:  "ytmtui — a YouTube Music client for your shell",
+    exploring: ["embedded systems", "MCP servers", "local LLMs", "AI agents"],
+    languages: ["English", "Português (BR) 🇧🇷"],
+    motto:     "If it can run in a terminal, it should.",
+}
+```
+
+- 🔭 Currently shipping **[ytmtui](https://github.com/Itthiago034/ytmtui)** and making it faster every release.
+- 🌱 Diving deeper into **embedded Rust**, microcontrollers and the parts of a computer most people never touch.
+- 🤖 Experimenting with **AI agents**, **MCP servers** and running **LLMs locally**.
+- 🇧🇷 *Também documento e mantenho projetos em PT-BR quando isso ajuda a comunidade.*
+- 💬 Ask me about Rust, Ratatui, Linux setups or anything low-level — I love that stuff.
 
 ---
 
-## Featured Project
+## 🎧 Featured project — [ytmtui](https://github.com/Itthiago034/ytmtui)
 
-### [ytmtui](https://github.com/Itthiago034/ytmtui)
-
-<p>
-  <a href="https://github.com/Itthiago034/ytmtui/releases">
-    <img src="https://img.shields.io/github/v/release/Itthiago034/ytmtui?include_prereleases&sort=semver&label=release&color=ff2d46" alt="ytmtui release" />
-  </a>
-  <a href="https://github.com/Itthiago034/ytmtui/actions/workflows/ci.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/Itthiago034/ytmtui/ci.yml?label=CI" alt="ytmtui CI" />
-  </a>
-  <img src="https://img.shields.io/badge/Rust-Ratatui-f97316?logo=rust&logoColor=white" alt="Rust + Ratatui" />
-  <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license" />
+<p align="center">
+  <a href="https://github.com/Itthiago034/ytmtui/releases"><img src="https://img.shields.io/github/v/release/Itthiago034/ytmtui?include_prereleases&sort=semver&label=release&color=ff2d46&style=flat-square" alt="ytmtui release" /></a>
+  <a href="https://github.com/Itthiago034/ytmtui/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Itthiago034/ytmtui/ci.yml?label=CI&style=flat-square" alt="ytmtui CI" /></a>
+  <img src="https://img.shields.io/badge/Rust-Ratatui-f97316?logo=rust&logoColor=white&style=flat-square" alt="Rust + Ratatui" />
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT license" />
 </p>
 
-`ytmtui` is a YouTube Music terminal client written in Rust with Ratatui. It focuses on fast keyboard navigation, clean terminal UI, and playback that works from a developer's shell.
+> **YouTube Music, right inside your terminal.** Fast keyboard navigation, a clean TUI, and playback that never makes you leave the shell. 🚀
 
-- Search songs, artists, and playlists without requiring sign-in.
-- Stream playback through `yt-dlp`, `ffmpeg`, and `rodio`.
-- Use optional cookie-based sign-in for account name, private playlists, library sync, and likes.
-- Follow synced lyrics, real-time spectrum visualization, album art, themes, queue, radio, and autoplay.
-- Read it in [English](https://github.com/Itthiago034/ytmtui) or [PT-BR](https://github.com/Itthiago034/ytmtui/blob/master/README.pt-BR.md).
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+**✨ What it does**
+
+- 🔎 Search songs, artists & playlists — **no sign-in required**
+- 🔊 Streams via `yt-dlp` + `ffmpeg` + `rodio`
+- 🎤 **Synced lyrics** that follow the music
+- 📊 **Real-time spectrum** visualizer
+- 🖼️ Album art, themes, queue, radio & autoplay
+
+</td>
+    <td width="50%" valign="top">
+
+**🔐 Optional sign-in (cookies)**
+
+- 👤 Your account name
+- 📚 Private playlists & library sync
+- ❤️ Likes
+
+**🌍 Docs**
+
+- 🇺🇸 [English](https://github.com/Itthiago034/ytmtui)
+- 🇧🇷 [Português (BR)](https://github.com/Itthiago034/ytmtui/blob/master/README.pt-BR.md)
+
+</td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://github.com/Itthiago034/ytmtui">
-    <img src="https://raw.githubusercontent.com/Itthiago034/ytmtui/master/docs/screenshots/home.png" alt="ytmtui home screen" width="760" />
+    <img src="https://raw.githubusercontent.com/Itthiago034/ytmtui/master/docs/screenshots/home.png" alt="ytmtui home screen" width="820" />
   </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Itthiago034/ytmtui"><img src="https://img.shields.io/badge/⭐_Give_it_a_star-ff2d46?style=for-the-badge" alt="Star ytmtui" /></a>
+  <a href="https://github.com/Itthiago034/ytmtui/releases"><img src="https://img.shields.io/badge/⬇️_Download-f97316?style=for-the-badge" alt="Download ytmtui" /></a>
 </p>
 
 ---
 
-## Toolbox
+## 🧰 Toolbox
 
-<p>
-  <img src="https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Terminal-111827?logo=gnometerminal&logoColor=white" alt="Terminal" />
-  <img src="https://img.shields.io/badge/Embedded-0f766e" alt="Embedded systems" />
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" />
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=rust,c,python,ts,linux,bash,git,vscode&perline=8" alt="Skills" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Ratatui-TUI-ff2d46?style=flat-square" alt="Ratatui" />
+  <img src="https://img.shields.io/badge/Embedded-Bare_metal-0f766e?style=flat-square" alt="Embedded" />
+  <img src="https://img.shields.io/badge/MCP-Servers-a855f7?style=flat-square" alt="MCP" />
+  <img src="https://img.shields.io/badge/LLMs-Local-f97316?style=flat-square" alt="Local LLMs" />
+  <img src="https://img.shields.io/badge/AI-Agents-111827?style=flat-square" alt="AI Agents" />
+</p>
+
+---
+
+## 📈 GitHub stats
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Itthiago034&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff2d46&icon_color=f97316&include_all_commits=true&count_private=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Itthiago034&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff2d46&langs_count=8" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Itthiago034&theme=radical&hide_border=true&background=0d1117&ring=ff2d46&fire=f97316&currStreakLabel=ff2d46" alt="GitHub streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Itthiago034&bg_color=0d1117&color=ff2d46&line=f97316&point=ffffff&area=true&area_color=ff2d46&hide_border=true&custom_title=Contribution%20activity" alt="Activity graph" width="100%" />
+</p>
+
+<!-- Snake: generated by .github/workflows/snake.yml into the `output` branch -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Itthiago034/Itthiago034/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Itthiago034/Itthiago034/output/github-snake.svg" />
+    <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Itthiago034/Itthiago034/output/github-snake-dark.svg" />
+  </picture>
 </p>
 
 ---
 
 <p align="center">
-  <em>Older experiments may be archived; active work is kept visible first.</em>
+  <em>Older experiments may be archived — active work always comes first. 🔥</em>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:a855f7,50:f97316,100:ff2d46&height=120&section=footer" alt="Footer" width="100%" />
 </p>
