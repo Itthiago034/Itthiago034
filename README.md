@@ -5,14 +5,13 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=800&color=FF2D46&center=true&vCenter=true&width=760&lines=%F0%9F%A6%80+Writing+Rust+that+lives+in+the+terminal;%E2%9A%99%EF%B8%8F+Poking+at+embedded+%26+low-level+code;%F0%9F%90%A7+Linux-first%2C+keyboard-driven%2C+always;%F0%9F%A4%96+Building+AI+agents%2C+MCP+servers+%26+local+LLMs;%F0%9F%8E%A7+Shipping+ytmtui%3A+YouTube+Music+in+your+shell" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=800&color=FF2D46&center=true&vCenter=true&width=760&lines=%F0%9F%A6%80+Writing+Rust+that+lives+in+the+terminal;%E2%9A%99%EF%B8%8F+Poking+at+embedded+%26+low-level+code;%F0%9F%90%A7+Linux-first%2C+keyboard-driven%2C+always;%F0%9F%A4%96+Building+AI+agents%2C+MCP+servers+%26+local+LLMs" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Itthiago034&style=for-the-badge&color=ff2d46&label=PROFILE+VIEWS" alt="Profile views" />
   <a href="https://github.com/Itthiago034?tab=followers"><img src="https://img.shields.io/github/followers/Itthiago034?style=for-the-badge&color=f97316&logo=github" alt="Followers" /></a>
-  <a href="https://github.com/Itthiago034/ytmtui/stargazers"><img src="https://img.shields.io/github/stars/Itthiago034/ytmtui?style=for-the-badge&color=a855f7&logo=starship&logoColor=white&label=ytmtui%20stars" alt="ytmtui stars" /></a>
 </p>
 
 <p align="center">
@@ -24,14 +23,14 @@
 ```rust
 struct Thiago {
     loves:     ["Rust", "Linux", "the terminal", "bare metal"],
-    building:  "ytmtui — a YouTube Music client for your shell",
+    building:  "fast, keyboard-driven tools for the terminal",
     exploring: ["embedded systems", "MCP servers", "local LLMs", "AI agents"],
     languages: ["English", "Português (BR) 🇧🇷"],
     motto:     "If it can run in a terminal, it should.",
 }
 ```
 
-- 🔭 Currently shipping **[ytmtui](https://github.com/Itthiago034/ytmtui)** and making it faster every release.
+- 🔭 Building **fast, keyboard-driven tools** in Rust that live in the terminal.
 - 🌱 Diving deeper into **embedded Rust**, microcontrollers and the parts of a computer most people never touch.
 - 🤖 Experimenting with **AI agents**, **MCP servers** and running **LLMs locally**.
 - 🇧🇷 *Também documento e mantenho projetos em PT-BR quando isso ajuda a comunidade.*
@@ -39,57 +38,38 @@ struct Thiago {
 
 ---
 
-## 🎧 Featured project — [ytmtui](https://github.com/Itthiago034/ytmtui)
-
-<p align="center">
-  <a href="https://github.com/Itthiago034/ytmtui/releases"><img src="https://img.shields.io/github/v/release/Itthiago034/ytmtui?include_prereleases&sort=semver&label=release&color=ff2d46&style=flat-square" alt="ytmtui release" /></a>
-  <a href="https://github.com/Itthiago034/ytmtui/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Itthiago034/ytmtui/ci.yml?label=CI&style=flat-square" alt="ytmtui CI" /></a>
-  <img src="https://img.shields.io/badge/Rust-Ratatui-f97316?logo=rust&logoColor=white&style=flat-square" alt="Rust + Ratatui" />
-  <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT license" />
-</p>
-
-> **YouTube Music, right inside your terminal.** Fast keyboard navigation, a clean TUI, and playback that never makes you leave the shell. 🚀
+## 🚀 What I'm into
 
 <table>
   <tr>
     <td width="50%" valign="top">
 
-**✨ What it does**
-
-- 🔎 Search songs, artists & playlists — **no sign-in required**
-- 🔊 Streams via `yt-dlp` + `ffmpeg` + `rodio`
-- 🎤 **Synced lyrics** that follow the music
-- 📊 **Real-time spectrum** visualizer
-- 🖼️ Album art, themes, queue, radio & autoplay
+### 🦀 Rust & the terminal
+TUIs with **Ratatui**, CLIs that feel instant, and workflows where your hands never leave the keyboard.
 
 </td>
     <td width="50%" valign="top">
 
-**🔐 Optional sign-in (cookies)**
+### ⚙️ Embedded & low-level
+Microcontrollers, memory, registers and everything that happens **close to the metal**.
 
-- 👤 Your account name
-- 📚 Private playlists & library sync
-- ❤️ Likes
+</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
 
-**🌍 Docs**
+### 🐧 Linux, always
+Linux-first setups, shell scripting and dotfiles tuned for **speed and simplicity**.
 
-- 🇺🇸 [English](https://github.com/Itthiago034/ytmtui)
-- 🇧🇷 [Português (BR)](https://github.com/Itthiago034/ytmtui/blob/master/README.pt-BR.md)
+</td>
+    <td width="50%" valign="top">
+
+### 🤖 AI agents & local LLMs
+**MCP servers**, agent tooling and running models **on my own machine**.
 
 </td>
   </tr>
 </table>
-
-<p align="center">
-  <a href="https://github.com/Itthiago034/ytmtui">
-    <img src="https://raw.githubusercontent.com/Itthiago034/ytmtui/master/docs/screenshots/home.png" alt="ytmtui home screen" width="820" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Itthiago034/ytmtui"><img src="https://img.shields.io/badge/⭐_Give_it_a_star-ff2d46?style=for-the-badge" alt="Star ytmtui" /></a>
-  <a href="https://github.com/Itthiago034/ytmtui/releases"><img src="https://img.shields.io/badge/⬇️_Download-f97316?style=for-the-badge" alt="Download ytmtui" /></a>
-</p>
 
 ---
 

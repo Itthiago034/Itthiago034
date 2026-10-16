@@ -60,7 +60,7 @@
   <g clip-path="url(#c3)">
     <text x="40" y="154"><tspan class="prompt">❯ </tspan><tspan class="cmd">cat ~/now-building.txt</tspan></text>
   </g>
-  <text x="40" y="184" class="item fade d2"><tspan class="tag">▸ </tspan>ytmtui — YouTube Music in your terminal 🎧</text>
+  <text x="40" y="184" class="item fade d2"><tspan class="tag">▸ </tspan>Rust tools for the terminal 🦀</text>
   <text x="40" y="210" class="item fade d3"><tspan class="tag">▸ </tspan>low-level &amp; embedded experiments ⚙️</text>
   <text x="40" y="236" class="item fade d4"><tspan class="tag">▸ </tspan>MCP servers, local LLMs &amp; agents 🤖</text>
 
@@ -69,7 +69,7 @@
     <rect class="cursor" x="62" y="256" width="10" height="18" fill="#e6edf3"/>
   </g>
 
-  <!-- equalizer (nod to ytmtui's spectrum) -->
+  <!-- equalizer -->
   <g class="eq" transform="translate(640 90)">
     <rect x="0"   y="0" width="14" height="150" rx="3" fill="url(#bar)" style="animation-duration:.55s"/>
     <rect x="22"  y="0" width="14" height="150" rx="3" fill="url(#bar)" style="animation-duration:.8s;animation-delay:-.3s"/>
@@ -82,5 +82,5 @@
     <rect x="176" y="0" width="14" height="150" rx="3" fill="url(#bar)" style="animation-duration:.7s;animation-delay:-.25s"/>
     <rect x="198" y="0" width="14" height="150" rx="3" fill="url(#bar)" style="animation-duration:.9s;animation-delay:-.45s"/>
   </g>
-  <text x="745" y="268" text-anchor="middle" class="dim pulse">♪ now playing in ytmtui</text>
+  <text x="745" y="268" text-anchor="middle" class="dim pulse">♪ coding with music on</text>
 </svg>
