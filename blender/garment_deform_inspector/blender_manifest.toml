@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+
+id = "garment_deform_inspector"
+version = "0.1.0"
+name = "Garment Deform Inspector"
+tagline = "Compara a deformação de roupas no mesmo rig e gera relatório"
+maintainer = "Itthiago034"
+type = "add-on"
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Rigging", "Mesh"]
+
+[permissions]
+files = "Escreve o relatório (Markdown, JSON e SVG) na pasta escolhida"
