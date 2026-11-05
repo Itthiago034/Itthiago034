@@ -33,7 +33,6 @@ search the Crunchyroll catalog, read your watchlist and history, and update your
 
 - 🔨 Hardening **mcp-crunchyroll** toward a stable release
 - 🤖 Running and building tooling for **local LLMs and AI agents**
-- 📚 Learning in public: [my Python, AI & deep learning study plan](https://github.com/Itthiago034/meus-estudos-python)
 - ⚙️ Getting started with **embedded Rust**
 
 ## Toolbox
